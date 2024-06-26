@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+
+</head>
+<body>
+
+    <header class="head ">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+              <a class="navbar-brand nav-logo" href="#"><img src="./IMAGES/logo@2x.png" class="" alt="">
+                
+                <div class="logo-text">
+                    <h1 class="site-name"> Weather</h1>
+                    <small class="name-description">tagline goes here</small>
+
+                </div>
+            
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto  text-center">
+                  <li class="nav-item ">
+                    <a class="nav-link active" id="active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Live Cameras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <!------------------- start main body------------------------------->
+    <section class="main-body pt-5 pb-5" >
+
+        <div class="container">
+            <form class="get-location">
+                <input type="text" class="form-control search " placeholder="find your location..." id="search">
+                <input type="button" class="" value="find" id="submit">
+            </form>
+        </div>
+
+        <div class="weather-table">
+
+            <div class="container pb-5">
+                <div class="row g-4 ">
+                    <div class="col-md-4 p-0  text-white text-center">
+                        <div class="today-forecast rounded-start-3">
+                            <div class="today d-flex align-items-center justify-content-between">
+                                <div class="today-day ps-4 ps-4 pt-1 pb-1">
+ 
+                                    
+                                </div>
+                                <div class="today-date pe-4"> </div>
+                            </div>
+                            <div class="forecast-content" >
+                                <div class="location" id="el-makan">
+                                    
+                                </div>
+                                <div class="degree">
+                                    <div class="today-degree text-center ">
+                                        
+                                        
+                                    </div>
+                                    <div class="">
+                                    <img class="today-icon w-25" src="" alt="">
+                                    </div>
+                                   
+                                </div>
+                                <div class="today-description pb-4"></div>
+                                <span id="humidity" class="pe-5"></span>
+                                <span id="wind" class="ps-5 pe-5"></span>
+                                <span id="compass" class="ps-5" ></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-0  text-white text-center">
+                        <div class="tomorrow-forecast">
+                            <div class="tomorrow text-center ">
+                                <div class="nextDay   pt-1 pb-1">
+ 
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="forecast-content d-flex align-items-center justify-content-center flex-column " id="today">
+                                <div class="pt-2 pb-2">
+                                    <img class="nextDay-icon" src="" alt="">
+                                </div>
+                                <div class="tomorrow-degree">
+                                    <div class="max-degree fs-2 pt-3 pb-3">
+                                        
+                                    </div>
+                                    <div class="min-degree fs-5 pt-3 pb-3">
+                                        
+                                    </div>
+                                    
+                                    
+                                </div>
+                                <div class="nextDay-description pt-3 pb-2"></div>
+                            
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-0  text-white text-center">
+                        <div class="tomorrow-forecast">
+                            <div class="tomorrow text-center ">
+                                <div class="nextDay   pt-1 pb-1">
+ 
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="forecast-content d-flex align-items-center justify-content-center flex-column " id="today">
+                                <div class="pt-2 pb-2">
+                                    <img class="nextDay-icon" src="" alt="">
+                                </div>
+                                <div class="tomorrow-degree">
+                                    <div class="max-degree fs-2 pt-3 pb-3">
+                                        
+                                    </div>
+                                    <div class="min-degree fs-5 pt-3 pb-3">
+                                        
+                                    </div>
+                                    
+                                    
+                                </div>
+                                <div class="nextDay-description pt-3 pb-2"></div>
+                            
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+    
+
+
+
+
+<!---------------------------START FOOTER-------------------------------------->
+<footer class="site-footer">
+
+    <div class="container">
+        <div class="row">
+            
+                <div class="col-md-8">
+                    <form class="get-email">
+                        <input type="text" class="form-control " placeholder="Enter your email to subscribe..." >
+                        <input type="button" class="subscribe" value="Subscribe" >
+                    </form>
+                </div>
+                <div class="col-md-3">
+                    <div class="social ">
+                        
+                        <a href=""> <i class="fa-solid fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-solid fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-solid fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-solid fa-brands fa-facebook-f"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <p class="footer-text">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+</footer>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>

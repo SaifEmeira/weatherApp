@@ -1,0 +1,237 @@
+.head{
+    padding: 40px 0px;
+    background-color: #1E202B;
+    color: white !important;
+}
+.head a{
+    color: white !important;
+}
+
+.head .navbar-nav a .active{
+    border: 2px solid #009AD8 !important;
+    color: #009AD8 !important;
+}
+.head .navbar-nav a {
+    padding: 5px 22px !important;
+    margin-right: 20px !important;
+    border: 2px solid transparent !important;
+    border-radius: 30px !important;
+    color: white !important;
+    -webkit-transition: 0.3s ease;
+    transition: all 0.3s ease;
+    font-weight: 400 !important;
+}
+
+.head .navbar-nav  #active{
+    border: 2px solid #009AD8 !important;
+    color: #009AD8 !important;
+}
+
+.head .navbar-nav a:hover{
+    border: 2px solid #009AD8 !important;
+    color: #009AD8 !important;
+}
+
+.logo-text{
+    display: inline-block;
+    vertical-align: middle;
+}
+.site-name{
+    margin-bottom: 5px;
+    
+    font-size: 20px;
+    color: white;
+}
+.nav-logo img{
+    width: 40%;
+    margin-right: 15px;
+}
+.name-description{
+    font-size: 10px;
+    
+    display: block;
+    color: #bfc1c8;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 156, 216, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler{
+    transition: all 0.3s ease;
+
+}
+.navbar-toggler:hover{
+
+border: 2px solid rgb(0, 154, 216) !important;
+    color: #009AD8 !important;
+    border-radius: 30px !important;
+}
+/************************* end NAVBAR*************************************/
+
+
+/************************* start main body*************************************/
+
+.main-body{
+    background-image: url(../IMAGES/cloudy-day-sea.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+::placeholder{
+    color: #757575 !important;
+}
+
+.get-location {
+    position: relative;
+    margin-bottom: 70px !important;
+}
+.get-location input[type="text"]{
+    border-radius: 30px !important;
+    padding: 15px ;
+    border-color: transparent !important;
+    background-color: #1E202B !important;
+    color: #fff !important;
+
+}
+.form-control:focus{
+    box-shadow: 0px 0px 0px 0px !important;
+
+}
+.get-location input[type="button"] {
+    border-radius: 30px !important;
+    background-color: #009AD8 !important;
+    color: white !important;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+.today{
+    background-color: #2D303D;
+    color: #BFC1C8;
+}
+.after-tomorrow{
+    background-color: #2D303D;
+    color: #BFC1C8;
+
+
+}
+.tomorrow{
+    background-color: #222530;
+    color: #BFC1C8;
+
+}
+.forecast-content{
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+.location{
+    font-size: 1.2857142857em;
+    font-weight: 400;
+    color: #BFC1C8;
+}
+
+.today-degree{
+    font-size: 39px;
+    color: white;
+    font-weight: 700;
+}
+.today-description{
+    color: #009AD8;
+}
+.nextDay-description{
+    color: #009AD8;
+}
+.today-icon img{
+
+}
+.degree{
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+.degree{
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+.today-forecast .forecast-content{
+    background-color: #323544;
+}
+.after-tomorrow-forecast .forecast-content{
+    background-color: #323544;
+}
+.tomorrow-forecast .forecast-content{
+    background-color: #222530;
+}
+.site-footer{
+    background: #262936;
+    padding: 50px 0;
+}
+
+.site-footer .social a {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    
+    font-size: 1.4285714286em;
+}
+.site-footer .social a:hover{
+    background: #009ad8;
+    color: white;
+
+
+}
+.fa-solid {
+    display: inline-block;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.get-email {
+    position: relative;
+    margin-bottom: 20px !important;
+}
+.get-email input[type="text"]{
+    border-radius: 30px !important;
+    padding: 15px ;
+    border-color: transparent !important;
+    background-color: #1E202B !important;
+    color: #fff !important;
+
+}
+.form-control:focus{
+    box-shadow: 0px 0px 0px 0px !important;
+
+}
+.get-email input[type="button"] {
+    border-radius: 30px !important;
+    background-color: #009AD8 !important;
+    color: white !important;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 20px;
+}
+.footer-text{
+    color: #BFC1C8;
+}
