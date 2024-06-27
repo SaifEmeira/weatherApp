@@ -21,7 +21,7 @@ var para;
 var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var months=["Jan","Feb","March","April","May","June","July","Aug","Sep","Oct","Nov","Dec"]
 async function getweather (para) {
-    var res = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=efd294d9dac54cd1852103322242406&q=${para}&days=3`);
+    var res = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=efd294d9dac54cd1852103322242406&q=${para}&days=3`);
   allData= await res.json();
     console.log(allData);
     display();
